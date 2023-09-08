@@ -1,11 +1,8 @@
 package bug.code;
 
-import bug.actions.Smart.Action;
-
-import java.util.ArrayDeque;
+import static bug.code.Symbol.*;
 
 public class Code {
-    public static class Variable {
-        public ArrayDeque<Action> actions = new ArrayDeque<Action>();
+    public void constant(LoadableConstant c) {
     }
 }
