@@ -1,11 +1,11 @@
 package bug.code;
 
-import bug.util.List;
-import bug.util.*;
-import java.util.*;
+import bug.actions.Smart.Action;
+
+import java.util.ArrayDeque;
 
 public class Code {
-    public List<Long> work(List<Integer> list) {
-        return null;
+    public static class Variable {
+        public ArrayDeque<Action> actions = new ArrayDeque<Action>();
     }
 }
